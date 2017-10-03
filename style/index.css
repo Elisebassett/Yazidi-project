@@ -22,3 +22,8 @@ body {
 }
 .nav a:visited {
 	color:grey;
+}
+.links {
+	margin-right: 15px;
+	text-align: right;
+}

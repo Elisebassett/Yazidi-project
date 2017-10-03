@@ -1,6 +1,10 @@
+
 body {
+	background: rgb(244,244,243);
 	margin: 0px;
+	font-family: futura;
 }
+
 .nav {
 	height:30px;
 	width: 100%;
@@ -12,21 +16,26 @@ body {
 	padding:10px;
 	position: fixed;
 }
+
 .nav a:link {
 	color:white;
 	text-decoration:none;
 	padding:7px;
 }
+
 .nav a:hover {
 	color:pink;
 }
+
 .nav a:visited {
 	color:grey;
 }
+
 .links {
 	margin-right: 15px;
 	text-align: right;
 }
+
 .logo {
 	height: 50px;
 	width: 43px;
@@ -34,6 +43,30 @@ body {
 	position: fixed;
 	top:0px;
 }
+
 .logo img{
 	width: 100%;
+}
+
+/*for about me page*/
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: slategray;
+}
+
+.float-left {
+ float: left;
+}
+
+.float-right {
+float: right;
 }

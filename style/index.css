@@ -1,3 +1,4 @@
+/*THIS IS CSS FOR ENTIRE SITE*/
 body {
 	margin: 0px;
 }
@@ -36,4 +37,31 @@ body {
 }
 .logo img{
 	width: 100%;
+}
+
+/*THIS IS CSS FOR HOME PAGE*/
+.home-slider {
+}
+
+
+/*THIS IS FOR GALLERY*/
+.gallery {
+text-align: center;	
+}
+.gallery div {
+	vertical-align: top;
+	box-sizing: border-box;	
+	display: inline-block;
+	margin: 5px;
+}
+.gallery img {
+	width: 100%;
+}
+#pics div {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+#pics {
+	margin:20px 0px;
 }

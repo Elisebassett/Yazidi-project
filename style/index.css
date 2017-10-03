@@ -1,3 +1,81 @@
+/*THIS IS CSS FOR ENTIRE SITE*/
 body {
 	margin: 0px;
+}
+.nav {
+	height:30px;
+	width: 100%;
+	line-height: 30px;
+	background-color: #9BC2CF;
+	margin:none;
+	font-size: 20px;
+	vertical-align: middle;
+	padding:10px;
+	position: fixed;
+}
+.nav a:link {
+	color:white;
+	text-decoration:none;
+	padding:7px;
+}
+.nav a:hover {
+	color:pink;
+}
+.nav a:visited {
+	color:grey;
+}
+.links {
+	margin-right: 15px;
+	text-align: right;
+}
+.logo {
+	height: 50px;
+	width: 43px;
+	overflow: hidden;
+	position: fixed;
+	top:0px;
+}
+.logo img{
+	width: 100%;
+}
+
+/*THIS IS CSS FOR HOME PAGE*/
+.home-header {
+	width:100%;
+	height:600px;
+	background-color: grey;
+	overflow:hidden;
+}
+.home-header-img img{
+	width: 100%;
+}
+.home-header-overlay {
+	font-size: 60px;
+	background: black;
+	opacity: 50%;
+	position:relative;
+	top: 10px;
+	color:white;
+}
+
+/*THIS IS FOR GALLERY*/
+.gallery {
+text-align: center;	
+}
+.gallery div {
+	vertical-align: top;
+	box-sizing: border-box;	
+	display: inline-block;
+	margin: 5px;
+}
+.gallery img {
+	width: 100%;
+}
+#pics div {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+#pics {
+	margin:20px 0px;
 }

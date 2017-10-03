@@ -1,6 +1,8 @@
 /*THIS IS CSS FOR ENTIRE SITE*/
 body {
+	background: rgb(244,244,243);
 	margin: 0px;
+	font-family: futura;
 }
 .nav {
 	height:30px;
@@ -14,20 +16,29 @@ body {
 	position: fixed;
 }
 .nav a:link {
-	color:white;
+	color: white;
 	text-decoration:none;
 	padding:7px;
 }
 .nav a:hover {
-	color:pink;
+	color: pink;
 }
 .nav a:visited {
-	color:grey;
+	color: grey;
 }
+.nav a:hover {
+	color: pink;
+}
+
+.nav a:visited {
+	color: grey;
+}
+
 .links {
 	margin-right: 15px;
 	text-align: right;
 }
+
 .logo {
 	height: 50px;
 	width: 43px;
@@ -35,6 +46,7 @@ body {
 	position: fixed;
 	top:0px;
 }
+
 .logo img{
 	width: 100%;
 }
@@ -63,21 +75,54 @@ body {
 /*THIS IS FOR GALLERY*/
 .gallery {
 	text-align: center;	
+
+.home-slider {
 }
+
+/*THIS IS FOR GALLERY*/
+.gallery {
+text-align: center;	
+}
+  
 .gallery div {
 	vertical-align: top;
 	box-sizing: border-box;	
 	display: inline-block;
 	margin: 5px;
 }
+  
 .gallery img {
 	width: 100%;
 }
+  
 #pics div {
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
 }
+  
 #pics {
 	margin:20px 0px;
+
+/*for about me page*/
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.float-left {
+ float: left;
+}
+
+.float-right {
+float: right;
 }

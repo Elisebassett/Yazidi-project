@@ -54,12 +54,13 @@ body {
 	color: white;
 	padding:10px;
 	font-size: 40px;
+	margin:0px;
 }
 
 .overlay {
 	background: gray;
 	position: relative;
-	bottom: 84%;
+	bottom: 77%;
 	width: 600px;
 	height: 300px;
 	opacity: 0.4;

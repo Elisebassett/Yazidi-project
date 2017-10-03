@@ -105,24 +105,61 @@ text-align: center;
 	margin:20px 0px;
 
 /*for about me page*/
-h1 {
+.overlay h1 {
+	text-align: left;
+	color: white;
+	padding:10px;
+	font-size: 40px;
+	margin:0px;
+}
+
+.overlay {
+	background: gray;
+	position: relative;
+	bottom: 77%;
+	width: 600px;
+	height: 300px;
+	opacity: 0.4;
+}
+
+.paragraph p {
 	text-align: center;
 }
 
-p {
-	text-align: center;
-	display: inline-block;
-}
-
-a {
+.linkwrapper a {
 	text-decoration: none;
 	color: grey;
 }
 
-.float-left {
- float: left;
+.header img {
+	width: 600px;
+	height: 300px;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: 10%;
 }
 
-.float-right {
-float: right;
+.header {
+	height: 400px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
 }
+
+.linkwrapper {
+	/*background: rgb(162, 193, 205);*/	
+	display: inline-block;
+}
+
+.absolute {
+	text-align: center
+}
+
+.display {
+	height: 200px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	background: rgb(208,208,204);
+}
+

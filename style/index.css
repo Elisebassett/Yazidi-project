@@ -83,7 +83,7 @@ body {
 }
 .summary p{
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 }
 .summary h1{
 	text-align:center;
@@ -105,6 +105,22 @@ body {
 .gallery img {
 	width: 100%;
 }
+
+.floating-smi {
+		position:fixed;
+		bottom:20px;
+		right:20px;
+	}
+	.floating-smi div{
+		float: right;
+		clear: both;
+		width:40px;
+		height: 40px;
+		margin:3px;
+	}
+	.floating-smi img{
+		width:100%;
+	}
  
 
 /*for about me page*/
@@ -117,12 +133,12 @@ body {
 }
 
 .overlay {
-	background: gray;
+	background: black;
 	position: relative;
-	bottom: 77%;
+	bottom: 151%;
 	width: 600px;
-	height: 300px;
-	opacity: 0.4;
+	height: 400px;
+	opacity: 0.3;
 }
 
 .paragraph p {
@@ -135,8 +151,8 @@ body {
 }
 
 .header img {
-	width: 600px;
-	height: 300px;
+	width: 100%;
+	/*height: 300px;*/
 	box-sizing: border-box;
 	position: relative;
 	margin-top: 10%;
@@ -147,6 +163,7 @@ body {
 	width: 600px;
 	text-align: center;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .linkwrapper {

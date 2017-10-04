@@ -156,10 +156,42 @@ text-align: center;
 }
 
 .display {
-	height: 200px;
+	height: 165px;
 	width: 600px;
 	text-align: center;
 	margin: 0 auto;
 	background: rgb(208,208,204);
+	padding: 0px;
 }
+
+/*donate page*/
+
+.button {
+	height: 500px;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button img {
+	width: 100%;
+}
+ 
+ .buttonoverlay {
+	position: relative;
+	text-align: center;
+}
+/* 
+ .text {
+ 	background-color: gray;
+ 	position: relative;
+ }
+
+.buttonimage {
+	position: relative;
+	box-sizing: border-box;
+}*/
+
+
+
 

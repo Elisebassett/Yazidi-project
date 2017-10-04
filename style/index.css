@@ -75,12 +75,17 @@ body {
 .home-header-overlay h1{
 	padding-left: 10px;
 }
+./*summary {
+	height: 250px;
+	width: 100%;
+	margin: 0 auto;
+	padding:40px;
+}*/
 .summary {
 	height: 250px;
-	width: 100%
-	background-color: 
-	margin: 0 auto;
-	padding:40px 100px;
+	width: 100%;
+	text-align: center;
+	margin: 30px;
 }
 .summary p{
 	font-size: 12px;
@@ -107,6 +112,9 @@ body {
   
 .gallery img {
 	width: 100%;
+}
+.text-box p{
+	font-size: 13px;
 }
 
 .floating-smi {

@@ -14,6 +14,7 @@ body {
 	vertical-align: middle;
 	padding:10px;
 	position: fixed;
+	z-index: 1;
 }
 .nav a:link {
 	color: white;
@@ -68,58 +69,79 @@ body {
 	position: relative;
 	bottom: 166%;
 	color: white;
-	width:100%;
-	height:600px;
+	width: 100%;
+	height: 600px;
+}
+.home-header-overlay h1{
+	padding-left: 10px;
+}
+.summary {
+	height: 250px;
+	width: 100%
+	background-color: 
+	margin: 0 auto;
+	padding:40px 100px;
+}
+.summary p{
+	font-size: 20px;
+	text-align: center;
+}
+.summary h1{
+	text-align:center;
 }
 
-/*THIS IS FOR GALLERY*/
 .gallery {
 	text-align: center;	
-
-.home-slider {
-}
-
-/*THIS IS FOR GALLERY*/
-.gallery {
-text-align: center;	
 }
   
 .gallery div {
 	vertical-align: top;
 	box-sizing: border-box;	
 	display: inline-block;
+}
+.home div{
 	margin: 5px;
+	width: 300px;
+	height: 300px;
 }
   
 .gallery img {
 	width: 100%;
 }
-  
-#pics div {
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-}
-  
-#pics {
-	margin:20px 0px;
+
+.floating-smi {
+		position:fixed;
+		bottom:20px;
+		right:20px;
+	}
+	.floating-smi div{
+		float: right;
+		clear: both;
+		width:40px;
+		height: 40px;
+		margin:3px;
+	}
+	.floating-smi img{
+		width:100%;
+	}
+ 
 
 /*for about me page*/
 .overlay h1 {
 	text-align: left;
 	color: white;
-	padding:10px;
+	padding: 10px;
 	font-size: 40px;
-	margin:0px;
+	margin: 0px;
 }
 
 .overlay {
-	background: gray;
+	background: black;
 	position: relative;
-	bottom: 77%;
+	bottom: 151%;
 	width: 600px;
-	height: 300px;
-	opacity: 0.4;
+	height: 400px;
+	opacity: 0.3;
 }
 
 .paragraph p {
@@ -132,8 +154,7 @@ text-align: center;
 }
 
 .header img {
-	width: 600px;
-	height: 300px;
+	width: 100%;
 	box-sizing: border-box;
 	position: relative;
 	margin-top: 10%;
@@ -144,6 +165,7 @@ text-align: center;
 	width: 600px;
 	text-align: center;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .linkwrapper {
@@ -177,21 +199,46 @@ text-align: center;
 	width: 100%;
 }
  
- .buttonoverlay {
+.buttonoverlay {
 	position: relative;
 	text-align: center;
 }
-/* 
- .text {
- 	background-color: gray;
- 	position: relative;
- }
 
-.buttonimage {
+.overlay-donate {
+	background: black;
 	position: relative;
+	bottom: 104%;
+	width: 600px;
+	height: 400px;
+	opacity: 0.3;
+}
+.overlay-donate h1{
+	text-align: left;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0px;
+}
+.header-donate img {
+	width: 100%;
+	height: 100%;
 	box-sizing: border-box;
-}*/
+	position: relative;
+	margin-top: 10%;
+}
 
+.header-donate {
+	height: 400px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.donate div{
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
 
 

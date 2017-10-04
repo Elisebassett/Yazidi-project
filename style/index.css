@@ -14,6 +14,7 @@ body {
 	vertical-align: middle;
 	padding:10px;
 	position: fixed;
+	z-index: 1;
 }
 .nav a:link {
 	color: white;
@@ -97,6 +98,8 @@ body {
 	vertical-align: top;
 	box-sizing: border-box;	
 	display: inline-block;
+}
+.home div{
 	margin: 5px;
 	width: 300px;
 	height: 300px;
@@ -152,7 +155,6 @@ body {
 
 .header img {
 	width: 100%;
-	/*height: 300px;*/
 	box-sizing: border-box;
 	position: relative;
 	margin-top: 10%;
@@ -197,21 +199,46 @@ body {
 	width: 100%;
 }
  
- .buttonoverlay {
+.buttonoverlay {
 	position: relative;
 	text-align: center;
 }
-/* 
- .text {
- 	background-color: gray;
- 	position: relative;
- }
 
-.buttonimage {
+.overlay-donate {
+	background: black;
 	position: relative;
+	bottom: 104%;
+	width: 600px;
+	height: 400px;
+	opacity: 0.3;
+}
+.overlay-donate h1{
+	text-align: left;
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0px;
+}
+.header-donate img {
+	width: 100%;
+	height: 100%;
 	box-sizing: border-box;
-}*/
+	position: relative;
+	margin-top: 10%;
+}
 
+.header-donate {
+	height: 400px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.donate div{
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
 
 

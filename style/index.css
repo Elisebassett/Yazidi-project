@@ -83,7 +83,7 @@ body {
 	padding:40px 100px;
 }
 .summary p{
-	font-size: 20px;
+	font-size: 12px;
 	text-align: center;
 }
 .summary h1{
@@ -147,6 +147,9 @@ body {
 .paragraph p {
 	text-align: center;
 }
+.paragraph {
+	padding: 15px;
+}
 
 .linkwrapper a {
 	text-decoration: none;
@@ -174,11 +177,12 @@ body {
 }
 
 .absolute {
-	text-align: center
+	text-align: center;
+	margin: 30px;
 }
 
 .display {
-	height: 165px;
+	height: 218px;
 	width: 600px;
 	text-align: center;
 	margin: 0 auto;
